@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-09-09T08:50:27.538Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="MJbFnp-o-4cU5z0UwMkZ" version="15.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-09T09:16:24.602Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="VyqQharXvCy1WszUbsEY" version="15.1.2" type="github">
   <diagram id="wFE0QG_FPsp0jaGvCLVb" name="Page-1">
-    <mxGraphModel dx="1099" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="948" dy="584" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#fff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="JDZgiOlyeI5DU_xq8-tg-2" value="改善之前" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="60" y="130" width="60" height="20" as="geometry" />
+          <mxGeometry x="65" y="122" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="JDZgiOlyeI5DU_xq8-tg-3" value="改变代码后" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="120" width="90" height="40" as="geometry" />
@@ -43,7 +43,7 @@
         <mxCell id="JDZgiOlyeI5DU_xq8-tg-12" value="请求资源和接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="410" y="120" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="JDZgiOlyeI5DU_xq8-tg-16" value="渲染当前更改&lt;br&gt;的页面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JDZgiOlyeI5DU_xq8-tg-16" value="重新渲染&lt;br&gt;当前页面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="120" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="JDZgiOlyeI5DU_xq8-tg-18" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
@@ -52,8 +52,8 @@
             <mxPoint x="540" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JDZgiOlyeI5DU_xq8-tg-20" value="增加之后" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="60" y="210" width="60" height="20" as="geometry" />
+        <mxCell id="JDZgiOlyeI5DU_xq8-tg-20" value="改善之后" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="65" y="203" width="58" height="18" as="geometry" />
         </mxCell>
         <mxCell id="JDZgiOlyeI5DU_xq8-tg-21" value="改变代码后" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="200" width="90" height="40" as="geometry" />
@@ -70,8 +70,41 @@
             <mxPoint x="410" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JDZgiOlyeI5DU_xq8-tg-30" value="渲染当前更改页面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JDZgiOlyeI5DU_xq8-tg-30" value="局部渲染&lt;br&gt;更改页面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="200" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JDZgiOlyeI5DU_xq8-tg-37" value="数据状态改变" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="662" y="120" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JDZgiOlyeI5DU_xq8-tg-38" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="JDZgiOlyeI5DU_xq8-tg-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="140" as="sourcePoint" />
+            <mxPoint x="680" y="93" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JDZgiOlyeI5DU_xq8-tg-39" value="数据状态保存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="662" y="200" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JDZgiOlyeI5DU_xq8-tg-40" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="JDZgiOlyeI5DU_xq8-tg-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="140" as="sourcePoint" />
+            <mxPoint x="662" y="140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="647" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JDZgiOlyeI5DU_xq8-tg-42" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="JDZgiOlyeI5DU_xq8-tg-30" target="JDZgiOlyeI5DU_xq8-tg-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="223" as="sourcePoint" />
+            <mxPoint x="680" y="173" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JDZgiOlyeI5DU_xq8-tg-44" value="（10s左右）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="55.5" y="142" width="77" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="JDZgiOlyeI5DU_xq8-tg-45" value="（1.5s）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="63" y="222" width="57" height="18" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
