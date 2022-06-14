@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-14T12:51:34.709Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="NOr-5-deqhc3EMwEj0if" version="16.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-14T14:49:43.586Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="yStjQgBHYS3OTEdJi-O6" version="16.6.2" type="github">
   <diagram id="Ba_svMdTy3JGAIHov-Mz" name="Page-1">
-    <mxGraphModel dx="1398" dy="649" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="928" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,11 +16,13 @@
         <mxCell id="UAGVeKmTsBAVroRV3glg-3" value="点击" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="325" y="100" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="9teElMZWW8E9QrikmrYW-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="UAGVeKmTsBAVroRV3glg-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="UAGVeKmTsBAVroRV3glg-7" value="获取&lt;br&gt;D位元素" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="300" y="150" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="UAGVeKmTsBAVroRV3glg-9" value="D位元素&lt;br&gt;种类" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="414" y="160" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UAGVeKmTsBAVroRV3glg-10" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -49,8 +51,80 @@
         <mxCell id="9teElMZWW8E9QrikmrYW-1" value="data-spm-click" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="40" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9teElMZWW8E9QrikmrYW-2" value="手动标记&lt;br&gt;的D位元素" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="620" y="40" width="70" height="30" as="geometry" />
+        <mxCell id="9teElMZWW8E9QrikmrYW-2" value="手动标记&lt;br&gt;的D位元素&lt;br&gt;和C位" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="620" y="30" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9teElMZWW8E9QrikmrYW-5" value="获取&lt;br&gt;C位元素" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="330" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UAGVeKmTsBAVroRV3glg-9" value="C位元素&lt;br&gt;种类" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="340" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9teElMZWW8E9QrikmrYW-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9teElMZWW8E9QrikmrYW-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9teElMZWW8E9QrikmrYW-9" value="手动标记的C位" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="540" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9teElMZWW8E9QrikmrYW-11" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="9teElMZWW8E9QrikmrYW-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="490" as="sourcePoint" />
+            <mxPoint x="440" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9teElMZWW8E9QrikmrYW-12" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="490" as="sourcePoint" />
+            <mxPoint x="470" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9teElMZWW8E9QrikmrYW-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="199.5" y="490" as="sourcePoint" />
+            <mxPoint x="199.5" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9teElMZWW8E9QrikmrYW-18" value="CD" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="185" y="630" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9teElMZWW8E9QrikmrYW-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="490" as="sourcePoint" />
+            <mxPoint x="340" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9teElMZWW8E9QrikmrYW-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9teElMZWW8E9QrikmrYW-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9teElMZWW8E9QrikmrYW-20" value="单独标记的&lt;br&gt;C位" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="540" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9teElMZWW8E9QrikmrYW-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9teElMZWW8E9QrikmrYW-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9teElMZWW8E9QrikmrYW-22" value="未标记C位&lt;br&gt;查询符合C位&lt;br&gt;的元素" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="540" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9teElMZWW8E9QrikmrYW-23" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="469.5" y="490" as="sourcePoint" />
+            <mxPoint x="469.5" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9teElMZWW8E9QrikmrYW-40" value="C + dom-tree" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="630" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9teElMZWW8E9QrikmrYW-42" value="C：dom-tree + D：dom-tree" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="385" y="630" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9teElMZWW8E9QrikmrYW-43" value="X-path" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="625" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
