@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-14T14:49:43.586Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="yStjQgBHYS3OTEdJi-O6" version="16.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-16T15:52:10.949Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.64 Safari/537.36" etag="2YyNo1RtOZhaKvOy9Hsw" version="16.6.2" type="github">
   <diagram id="Ba_svMdTy3JGAIHov-Mz" name="Page-1">
-    <mxGraphModel dx="928" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="928" dy="759" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -37,7 +37,7 @@
           <mxGeometry x="540" y="210" width="60" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UAGVeKmTsBAVroRV3glg-13" value="当前点击的元素" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="540" y="290" width="60" height="50" as="geometry" />
+          <mxGeometry x="540" y="315" width="60" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UAGVeKmTsBAVroRV3glg-15" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="60" width="20" height="260" as="geometry" />
@@ -117,14 +117,23 @@
             <mxPoint x="469.5" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9teElMZWW8E9QrikmrYW-40" value="C + dom-tree" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="290" y="630" width="90" height="20" as="geometry" />
+        <mxCell id="9teElMZWW8E9QrikmrYW-40" value="C + dom-selector" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="284" y="631" width="102" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="9teElMZWW8E9QrikmrYW-42" value="C：dom-tree + D：dom-tree" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="385" y="630" width="170" height="20" as="geometry" />
+        <mxCell id="9teElMZWW8E9QrikmrYW-42" value="C：dom-selector&amp;nbsp;+ D：dom-selector" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="369" y="631" width="204" height="18" as="geometry" />
         </mxCell>
         <mxCell id="9teElMZWW8E9QrikmrYW-43" value="X-path" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="60" y="625" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9teElMZWW8E9QrikmrYW-44" value="无效D位" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="258" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9teElMZWW8E9QrikmrYW-46" value="hover块的元素" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="195" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9teElMZWW8E9QrikmrYW-47" value="&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%E5%BD%93%E5%89%8D%E7%82%B9%E5%87%BB%E7%9A%84%E5%85%83%E7%B4%A0%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22540%22%20y%3D%22315%22%20width%3D%2260%22%20height%3D%2250%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="626" y="276" width="10" height="22" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
